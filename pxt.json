@@ -1,0 +1,22 @@
+{
+    "name": "music",
+    "description": "Sound and Music",
+    "version": "0.0.1",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "src/instrument.ts",
+        "src/music.ts",
+        "src/note.ts",
+        "src/sound.ts",
+        "src/volume.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "src/test.ts"
+    ],
+    "preferredEditor": "tsprj",
+    "icon": "icon.png"
+}
