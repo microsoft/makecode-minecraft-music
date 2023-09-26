@@ -74,6 +74,7 @@ namespace music {
     //% blockId=minecraft_music_play_note block="play|note $note|on $instrument"
     //% note.shadow="minecraft_note_frequency"
     //% instrument.shadow="minecraft_instrument"
+    //% help=github:makecode-minecraft-music/docs/play-note
     export function playNote(note: number, instrument: number): void {
         const soundId: string = _instrumentMinecraftId(instrument);
         const pitch: string = _frequencyToMinecraftPitch(note);
@@ -92,6 +93,7 @@ namespace music {
     //% useEnumVal=1
     //% group="Notes"
     //% blockGap=8
+    //% help=github:makecode-minecraft-music/docs/play-note
     export function noteFrequency(note: Note): number {
         return note;
     }
