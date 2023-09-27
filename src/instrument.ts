@@ -51,6 +51,7 @@ namespace music {
     //% name.fieldOptions.width=340 name.fieldOptions.columns=8 name.fieldOptions.tooltips=true
     //% name.fieldOptions.maxRows="2"
     //% name.fieldOptions.hideRect=true
+    //% help=github:makecode-minecraft-music/docs/play-sound
     //% useEnumVal=1
     export function instrument(name: Instrument): Instrument {
         return name;

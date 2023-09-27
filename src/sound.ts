@@ -81,6 +81,7 @@ namespace music {
     //% parts="headphone"
     //% useEnumVal=1
     //% group="Sound"
+    //% help=github:makecode-minecraft-music/docs/play-sound
     export function playSound(sound: Sound): void {
         player.execute(`playsound ${minecraftSoundId(sound)} @a ~ ~ ~ ${music.volumeInGameUnits}`)
     }

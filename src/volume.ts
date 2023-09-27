@@ -17,6 +17,7 @@ namespace music {
     //% weight=69
     //% group="Volume"
     //% blockGap=8
+    //% help=github:makecode-minecraft-music/docs/volume
     export function volume(): number {
         return Math.map(volumeInGameUnits, GAME_VOLUME_MIN, GAME_VOLUME_MAX, INPUT_VOLUME_MIN, INPUT_VOLUME_MAX);
     }
@@ -33,6 +34,7 @@ namespace music {
     //% weight=70
     //% group="Volume"
     //% blockGap=8
+    //% help=github:makecode-minecraft-music/docs/volume
     export function setVolume(volume: number): void {
         volumeInGameUnits = Math.map(volume, INPUT_VOLUME_MIN, INPUT_VOLUME_MAX, GAME_VOLUME_MIN, GAME_VOLUME_MAX);
     }
@@ -42,6 +44,7 @@ namespace music {
      */
     //% group="Volume" weight=80
     //% block="stop all sounds"
+    //% help=github:makecode-minecraft-music/docs/volume
     export function stopSounds(): void {
         player.execute("stopsound @a");
     }

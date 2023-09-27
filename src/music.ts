@@ -38,6 +38,7 @@ namespace music {
      */
     //% group="Music Discs" weight=60
     //% block="play music disc $builtInMusicDisc"
+    //% help=github:makecode-minecraft-music/docs/play-disc
     export function playMusic(builtInMusicDisc: MusicDisc): void {
         player.execute(`playsound ${minecraftTrackName(builtInMusicDisc)} @a ~ ~ ~ ${music.volumeInGameUnits}`);
     }
