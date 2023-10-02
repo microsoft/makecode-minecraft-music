@@ -13,3 +13,8 @@ This block uses the Minecraft `/playsound` command underneath to allow for all t
 
 * **sound**: the sound to be played in the game, specifically sounds that comes from popular mobs and game sound effects
 * **millis**: the number of milliseconds to pause after playing the note
+
+
+```package
+makecode-minecraft-music=github:microsoft/makecode-minecraft-music
+```

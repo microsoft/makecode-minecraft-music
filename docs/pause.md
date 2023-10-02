@@ -10,3 +10,8 @@ music.pause(music.beat(BeatFraction.Sixteenth))
 
 
 * **millis**: the number of milliseconds to pause for
+
+
+```package
+makecode-minecraft-music=github:microsoft/makecode-minecraft-music
+```

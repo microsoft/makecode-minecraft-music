@@ -10,3 +10,8 @@ music.setTempo(120)
 
 
 * **bpm**: the beats per minute (BPM) to set the tempo to
+
+
+```package
+makecode-minecraft-music=github:microsoft/makecode-minecraft-music
+```

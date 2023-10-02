@@ -10,3 +10,8 @@ music.changeTempoBy(20)
 
 
 * **bpm**: the amount to change the current tempo by.
+
+
+```package
+makecode-minecraft-music=github:microsoft/makecode-minecraft-music
+```

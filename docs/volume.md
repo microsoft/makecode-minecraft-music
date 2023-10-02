@@ -18,3 +18,8 @@ Modify how loud any of the played sounds will be
 ## Stop all Sounds
 
 If there are any sounds playing -- either from a sound, note, or music disc -- this block will stop those sounds.
+
+
+```package
+makecode-minecraft-music=github:microsoft/makecode-minecraft-music
+```

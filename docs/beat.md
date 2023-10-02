@@ -10,3 +10,8 @@ music.beat(BeatFraction.Sixteenth)
 
 
 * **fraction**: the beat fraction to convert into milliseconds
+
+
+```package
+makecode-minecraft-music=github:microsoft/makecode-minecraft-music
+```

@@ -12,3 +12,8 @@ This block uses the Minecraft `/playsound` command underneath to allow for all t
 
 
 * **builtinMusicDisc**: the disc to be played in the game
+
+
+```package
+makecode-minecraft-music=github:microsoft/makecode-minecraft-music
+```
