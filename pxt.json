@@ -7,11 +7,21 @@
         "builder": "*"
     },
     "files": [
+        "docs/beat.md",
+        "docs/change-tempo-by.md",
+        "docs/pause.md",
+        "docs/play-disc.md",
+        "docs/play-note.md",
+        "docs/play-sound.md",
+        "docs/set-tempo.md",
+        "docs/tempo.md",
+        "docs/volume.md",
         "src/instrument.ts",
         "src/music.ts",
         "src/note.ts",
         "src/sound.ts",
         "src/volume.ts",
+        "src/tempo.ts",
         "README.md"
     ],
     "testFiles": [

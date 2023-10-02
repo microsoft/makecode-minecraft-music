@@ -77,13 +77,18 @@ namespace music {
      * @param sound the sound to play, eg: Sound.Blaze
      */
     //% weight=90
-    //% blockId=sound_play_sound block="play|sound $sound" blockGap=8
+    //% blockId=sound_play_sound block="play|sound $sound||and pause for $millis" blockGap=8
+    //% millis.shadow=sound_beat
     //% parts="headphone"
     //% useEnumVal=1
     //% group="Sound"
     //% help=github:makecode-minecraft-music/docs/play-sound
-    export function playSound(sound: Sound): void {
+    export function playSound(sound: Sound, millis?: number): void {
         player.execute(`playsound ${minecraftSoundId(sound)} @a ~ ~ ~ ${music.volumeInGameUnits}`)
+
+        if (millis > 0) {
+            loops.pause(millis);
+        }
     }
 
     function minecraftSoundId(sound: Sound) {

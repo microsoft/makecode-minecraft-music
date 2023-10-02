@@ -70,15 +70,22 @@ namespace music {
      * @param instrument instrument to play the note as
      */
     //% group="Notes"
-    //% weight=90 blockGap=8
-    //% blockId=minecraft_music_play_note block="play|note $note|on $instrument"
-    //% note.shadow="minecraft_note_frequency"
-    //% instrument.shadow="minecraft_instrument"
+    //% weight=90
+    //% blockGap=8
+    //% blockId=minecraft_music_play_note
+    //% block="play|note $note|on $instrument||and pause for $millis"
+    //% note.shadow=minecraft_note_frequency
+    //% instrument.shadow=minecraft_instrument
+    //% millis.shadow=sound_beat
     //% help=github:makecode-minecraft-music/docs/play-note
-    export function playNote(note: number, instrument: number): void {
+    export function playNote(note: number, instrument: number, millis?: number): void {
         const soundId: string = _instrumentMinecraftId(instrument);
         const pitch: string = _frequencyToMinecraftPitch(note);
         player.execute(`playsound ${soundId} @a ~ ~ ~ ${music.volumeInGameUnits} ${pitch}`)
+
+        if (millis > 0) {
+            loops.pause(millis);
+        }
     }
 
     /**
