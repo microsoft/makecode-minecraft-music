@@ -13,7 +13,8 @@ The extension can modify the volume at which the music plays, but will not modif
 
 ## Contributors
 We want to express our gratitude to the following individuals who have contributed to this project:
-[@dbjorge](https://github.com/dbjorge) [@kduenke](https://github.com/kduenke)
+- [@dbjorge](https://github.com/dbjorge)
+- [@kduenke](https://github.com/kduenke)
 
 Thanks for your valuable contributions! Your help has been greatly appreciated!
 
