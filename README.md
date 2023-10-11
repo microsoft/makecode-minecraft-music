@@ -2,7 +2,6 @@
 
 This repository is an approved **extension** in Microsoft MakeCode for Minecraft Education. If you would like to make changes or add features to this extension, feel free to open a PR or file an issue!
 
-
 ## Overview
 
 <img src='./icon.png'>
@@ -18,7 +17,6 @@ We want to express our gratitude to the following individuals who have contribut
 - [@kduenke](https://github.com/kduenke)
 
 Thanks for your valuable contributions! Your help has been greatly appreciated!
-
 
 ## Contributing
 
