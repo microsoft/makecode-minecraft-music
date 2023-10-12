@@ -2,6 +2,7 @@
 
 This repository is an approved **extension** in Microsoft MakeCode for Minecraft Education. If you would like to make changes or add features to this extension, feel free to open a PR or file an issue!
 
+
 ## Overview
 
 <img src='./icon.png'>
@@ -10,6 +11,14 @@ This extension add music blocks to Microsoft MakeCode for Minecraft Education. U
 
 **Note** 
 The extension can modify the volume at which the music plays, but will not modify the in-game music volume. If your music volume in your Minecraft Education world is low or off, you will not be able to hear the music from the blocks.
+
+## Contributors
+We want to express our gratitude to the following individuals who have contributed to this project:
+- [@dbjorge](https://github.com/dbjorge)
+- [@kduenke](https://github.com/kduenke)
+
+Thanks for your valuable contributions! Your help has been greatly appreciated!
+
 
 ## Contributing
 
