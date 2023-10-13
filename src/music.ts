@@ -29,7 +29,7 @@ declare const enum MusicDisc {
     Pigstep
 }
 
-//% color=#E63022 weight=40 icon="\uf025"
+//% color=#E30FC0 weight=70 icon="\uf025"
 //% groups='["Music Discs", "Sound", "Notes", "Volume"]'
 namespace music {
     /**
