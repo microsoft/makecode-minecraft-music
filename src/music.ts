@@ -30,7 +30,7 @@ declare const enum MusicDisc {
 }
 
 //% color=#E30FC0 weight=55 icon="\uf025"
-//% groups='["Music Discs", "Sound", "Notes", "Volume"]'
+//% groups='["Notes", "Sound", "Music Discs", "Volume"]'
 namespace music {
     /**
      * Play a Minecraft music disc.
