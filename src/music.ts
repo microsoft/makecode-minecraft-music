@@ -26,7 +26,9 @@ declare const enum MusicDisc {
     //% block="Lena Raine - otherside"
     Otherside,
     //% block="Lena Raine - Pigstep"
-    Pigstep
+    Pigstep,
+    //% block="Aaron Cherof - Relic"
+    Relic
 }
 
 //% color=#E30FC0 weight=55 icon="\uf025"
@@ -59,6 +61,7 @@ namespace music {
             case MusicDisc.Ward: return "record.ward";
             case MusicDisc.Otherside: return "record.otherside";
             case MusicDisc.Pigstep: return "record.pigstep";
+            case MusicDisc.Relic: return "record.relic";
             default: throw `Unrecognized MusicDisc enum value: ${musicDisc}`;
         }
     }
