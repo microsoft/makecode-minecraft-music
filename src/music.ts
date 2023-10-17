@@ -28,7 +28,9 @@ declare const enum MusicDisc {
     //% block="Lena Raine - Pigstep"
     Pigstep,
     //% block="Aaron Cherof - Relic"
-    Relic
+    Relic,
+    //% block="Samuel Aberg - 5"
+    Five
 }
 
 //% color=#E30FC0 weight=55 icon="\uf025"
@@ -49,6 +51,7 @@ namespace music {
         switch (musicDisc) {
             case MusicDisc.Eleven: return "record.11";
             case MusicDisc.Thirteen: return "record.13";
+            case MusicDisc.Five: return "record.5"
             case MusicDisc.Blocks: return "record.blocks";
             case MusicDisc.Cat: return "record.cat";
             case MusicDisc.Chirp: return "record.chirp";
