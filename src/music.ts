@@ -26,7 +26,11 @@ declare const enum MusicDisc {
     //% block="Lena Raine - otherside"
     Otherside,
     //% block="Lena Raine - Pigstep"
-    Pigstep
+    Pigstep,
+    //% block="Aaron Cherof - Relic"
+    Relic,
+    //% block="Samuel Aberg - 5"
+    Five
 }
 
 //% color=#E30FC0 weight=55 icon="\uf025"
@@ -47,6 +51,7 @@ namespace music {
         switch (musicDisc) {
             case MusicDisc.Eleven: return "record.11";
             case MusicDisc.Thirteen: return "record.13";
+            case MusicDisc.Five: return "record.5"
             case MusicDisc.Blocks: return "record.blocks";
             case MusicDisc.Cat: return "record.cat";
             case MusicDisc.Chirp: return "record.chirp";
@@ -59,6 +64,7 @@ namespace music {
             case MusicDisc.Ward: return "record.ward";
             case MusicDisc.Otherside: return "record.otherside";
             case MusicDisc.Pigstep: return "record.pigstep";
+            case MusicDisc.Relic: return "record.relic";
             default: throw `Unrecognized MusicDisc enum value: ${musicDisc}`;
         }
     }
