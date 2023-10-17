@@ -83,6 +83,11 @@ namespace music {
         const pitch: string = _frequencyToMinecraftPitch(note);
         player.execute(`playsound ${soundId} @a ~ ~ ~ ${music.volumeInGameUnits} ${pitch}`)
 
+        // use == here to check for null and undefined
+        if (millis == undefined) {
+            loops.pause(beat(BeatFraction.Whole));
+        }
+
         if (millis > 0) {
             loops.pause(millis);
         }
