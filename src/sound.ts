@@ -86,6 +86,11 @@ namespace music {
     export function playSound(sound: Sound, millis?: number): void {
         player.execute(`playsound ${minecraftSoundId(sound)} @a ~ ~ ~ ${music.volumeInGameUnits}`)
 
+        // use == here to check for null and undefined
+        if (millis == undefined) {
+            millis = beat(BeatFraction.Whole);
+        }
+
         if (millis > 0) {
             loops.pause(millis);
         }
