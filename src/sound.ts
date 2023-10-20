@@ -88,7 +88,7 @@ namespace music {
 
         // use == here to check for null and undefined
         if (millis == undefined) {
-            loops.pause(beat(BeatFraction.Whole));
+            millis = beat(BeatFraction.Whole);
         }
 
         if (millis > 0) {
