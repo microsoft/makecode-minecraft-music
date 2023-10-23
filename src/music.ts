@@ -41,10 +41,12 @@ namespace music {
      * @param builtInMusicDisc a built-in Minecraft music disc you wish to play
      */
     //% group="Music Discs" weight=60
-    //% block="play music disc $builtInMusicDisc"
+    //% block="play music disc $builtInMusicDisc ||at $position"
+    //% position.shadow=minecraftCreatePositionCamera
     //% help=github:makecode-minecraft-music/docs/play-disc
-    export function playMusic(builtInMusicDisc: MusicDisc): void {
-        player.execute(`playsound ${minecraftTrackName(builtInMusicDisc)} @a ~ ~ ~ ${music.volumeInGameUnits}`);
+    export function playMusic(builtInMusicDisc: MusicDisc, position?: Position): void {
+        const positionString = position ? position.toString() : "~ ~ ~";
+        player.execute(`playsound ${minecraftTrackName(builtInMusicDisc)} @a ${positionString} ${music.volumeInGameUnits}`);
     }
 
     function minecraftTrackName(musicDisc: MusicDisc) {
