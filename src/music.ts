@@ -41,7 +41,7 @@ namespace music {
      * @param builtInMusicDisc a built-in Minecraft music disc you wish to play
      */
     //% group="Music Discs" weight=60
-    //% block="play music disc $builtInMusicDisc ||at $position"
+    //% block="play music disc $builtInMusicDisc in background ||at $position"
     //% position.shadow=minecraftCreatePositionCamera
     //% help=github:makecode-minecraft-music/docs/play-disc
     export function playMusic(builtInMusicDisc: MusicDisc, position?: Position): void {
