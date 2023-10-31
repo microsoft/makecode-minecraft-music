@@ -66,7 +66,7 @@ enum Note {
 namespace music {
     /**
      * Plays a note similar to a Minecraft note block.
-     * @param note pitch of the tone to play in Hertz (Hz), eg: Note.C
+     * @param note pitch of the tone to play in Hertz (Hz)
      * @param instrument instrument to play the note as
      */
     //% group="Notes"
@@ -75,6 +75,7 @@ namespace music {
     //% blockId=minecraft_music_play_note
     //% block="play|note $note|on $instrument||and pause for $millis"
     //% note.shadow=minecraft_note_frequency
+    //% note.defl="Note.C4"
     //% instrument.shadow=minecraft_instrument
     //% millis.shadow=sound_beat
     //% help=github:makecode-minecraft-music/docs/play-note
@@ -100,7 +101,7 @@ namespace music {
     //% weight=50
     //% blockId=minecraft_note_frequency block="$note"
     //% shim=TD_ID
-    //% note.fieldEditor="note" note.defl="262"
+    //% note.fieldEditor="minecraftnote" note.defl="262"
     //% note.fieldOptions.decompileLiterals=true
     //% useEnumVal=1
     //% group="Notes"
