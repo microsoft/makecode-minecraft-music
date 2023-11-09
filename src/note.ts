@@ -119,7 +119,7 @@ namespace music {
 
     // This is just number.toFixed(3)
     function _formatFloatForMinecraftCommand(input: number): string {
-        const thousandths = Math.round(input * 1000);
-        return `${Math.floor(thousandths / 1000)}.${thousandths % 1000}`;
+        const thousandths = input.toPrecision(4);
+        return thousandths.toString();
     }
 }
