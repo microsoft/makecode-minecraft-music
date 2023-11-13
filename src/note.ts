@@ -114,12 +114,6 @@ namespace music {
     export function _frequencyToMinecraftPitch(frequencyHz: number): string {
         // The minecraft note scale runs from F#3 (pitch .5) to F#5 (pitch 2.0).
         const pitch = Math.map(frequencyHz, 185, 740, .5, 2.0);
-        return _formatFloatForMinecraftCommand(pitch);
-    }
-
-    // This is just number.toFixed(3)
-    function _formatFloatForMinecraftCommand(input: number): string {
-        const thousandths = input.toPrecision(4);
-        return thousandths.toString();
+        return pitch.toString();
     }
 }
