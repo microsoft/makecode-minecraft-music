@@ -1,4 +1,4 @@
-# play a Music Disc
+# play a Minecraft Sound
 
 Play mob and item sounds to create cool rhythms from a blaze to a villager haggle!
 
