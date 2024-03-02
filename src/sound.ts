@@ -10,36 +10,55 @@ enum Sound {
     CatPurr,
     //% block="Cat Purreow"
     CatPurreow,
+    //% block="Chicken"
     Chicken,
+    //% block="Click"
     Click,
+    //% block="Cow"
     Cow,
+    //% block="Creeper"
     Creeper,
+    //% block="Dolphin"
     Dolphin,
+    //% block="Drink"
     Drink,
+    //% block="Drowned"
     Drowned,
+    //% block="Eat"
     Eat,
     //% block="Elder Guardian"
     ElderGuardian,
+    //% block="Endermen"
     Endermen,
+    //% block="Explode"
     Explode,
     //% block="Fall Damage"
     FallDamage,
+    //% block="Fire"
     Fire,
+    //% block="Firework"
     Firework,
     //% block="Firework (Large)"
     FireworkLarge,
     //% block="Firework (Twinkle)"
     FireworkTwinkle,
+    //% block="Fizz"
     Fizz,
+    //% block="Fuse"
     Fuse,
+    //% block="Ghast"
     Ghast,
+    //% block="Horse"
     Horse,
+    //% block="Hurt"
     Hurt,
     //% block="Level Up"
     LevelUp,
     //% block="Lightning Impact"
     LightningImpact,
+    //% block="Llama"
     Llama,
+    //% block="Pig"
     Pig,
     //% block="Player Attack"
     PlayerAttack,
@@ -47,14 +66,23 @@ enum Sound {
     PlayerDie,
     //% block="Player Hurt"
     PlayerHurt,
+    //% block="Rain"
     Rain,
+    //% block="Sheep"
     Sheep,
+    //% block="Skeleton"
     Skeleton,
+    //% block="Slime"
     Slime,
+    //% block="Spider"
     Spider,
+    //% block="Splash"
     Splash,
+    //% block="Thunder"
     Thunder,
+    //% block="Totem"
     Totem,
+    //% block="Trident"
     Trident,
     //% block="Villager (Haggle)"
     VillagerHaggle,
@@ -68,6 +96,7 @@ enum Sound {
     WolfGrowl,
     //% block="Wolf Whine"
     WolfWhine,
+    //% block="Zombie"
     Zombie,
 }
 
