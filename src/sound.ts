@@ -1,4 +1,5 @@
 enum Sound {
+    //% block="Blaze"
     Blaze,
     //% block="Bucket Splash"
     BucketSplash,
