@@ -22,7 +22,9 @@
         "src/sound.ts",
         "src/volume.ts",
         "src/tempo.ts",
-        "README.md"
+        "README.md",
+        "_locales/ja/makecode-minecraft-music-jsdoc-strings.json",
+        "_locales/ja/makecode-minecraft-music-strings.json"
     ],
     "testFiles": [
         "src/test.ts"

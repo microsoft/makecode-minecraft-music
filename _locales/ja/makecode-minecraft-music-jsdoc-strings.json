@@ -1,0 +1,23 @@
+{
+    "music.beat": "拍の長さをミリ秒で返す",
+    "music.changeTempoBy": "テンポを指定された量変化させる(速くする)。これはこの拡張機能のブロックで使われるテンポであり、Minecraft内で再生されている音楽のテンポではありません。",
+    "music.changeTempoBy|param|bpm": "テンポの変化量 (bpm)、例: 20",
+    "music.instrument": "音を鳴らす楽器",
+    "music.noteFrequency": "音程(音の周波数) (Hz)",
+    "music.pause": "指定された時間休む",
+    "music.pause|param|millis": "休む時間 (ミリ秒)",
+    "music.playMusic": "Minecraftのレコードを再生する",
+    "music.playMusic|param|builtInMusicDisc": "再生したいMinecraftのレコード",
+    "music.playNote": "Minecraftの音符ブロックに似た音を鳴らす",
+    "music.playNote|param|instrument": "音を鳴らす楽器",
+    "music.playNote|param|note": "鳴らす音程 (Hz)",
+    "music.playSound": "Minecraftのゲーム内サウンドを再生する",
+    "music.playSound|param|sound": "再生するサウンド、例: Sound.Blaze",
+    "music.setTempo": "テンポを指定された量に設定する。これはこの拡張機能のブロックで使われるテンポであり、Minecraft内で再生されている音楽のテンポではありません。",
+    "music.setTempo|param|bpm": "新しいテンポ (bpm)",
+    "music.setVolume": "サウンドやレコードを再生するときのデフォルトの音量を設定する。これはMinecraft内の音量設定とは別です！",
+    "music.setVolume|param|volume": "0~100の音量",
+    "music.stopSounds": "再生されている全ての音を止める",
+    "music.tempo": "一分あたりの拍数(bpm)を返す。これはこの拡張機能のブロックで使われるテンポであり、Minecraft内で再生されている音楽のテンポではありません。テンポは音を鳴らすときの速さ(一分あたりの拍数(bpm))です。テンポの値が大きくなればなるほど、音は速く鳴ります。",
+    "music.volume": "サウンドやレコードを再生するときのデフォルトの音量を返す。これはMinecraft内の音量設定とは別です！"
+}
