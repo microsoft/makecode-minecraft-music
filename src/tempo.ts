@@ -42,7 +42,6 @@ namespace music {
 
     /**
      * Returns the tempo in beats per minute. This is the tempo use by blocks in this extension, NOT the tempo of the currently playing music in Minecraft.
-     *
      * Tempo is the speed (bpm = beats per minute) at which notes play. The larger the tempo value, the faster the notes will play.
      */
     //% help=github:makecode-minecraft-music/docs/tempo
@@ -58,7 +57,6 @@ namespace music {
     /**
      * Change the tempo by the specified amount. This only affects the other tempo blocks in this extension, NOT the tempo of the currently
      * playing music in Minecraft.
-     *
      * @param bpm The change in beats per minute to the tempo, eg: 20
      */
     //% help=github:makecode-minecraft-music/docs/change-tempo-by
@@ -75,7 +73,6 @@ namespace music {
     /**
      * Sets the tempo to the specified amount. This only affects the other tempo blocks in this extension, NOT the tempo of the currently
      * playing music in Minecraft.
-     *
      * @param bpm The new tempo in beats per minute
      */
     //% help=github:makecode-minecraft-music/docs/set-tempo

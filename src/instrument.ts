@@ -2,8 +2,10 @@
  * Minecraft instrument types that a note block can emit
  */
  declare const enum Instrument {
+    //% block="Chime"
     //% jres=Block.PackedIce
     Chime,
+    //% block="Bass"
     //% jres=Block.PlanksOak
     Bass,
     //% block="Snare Drum"
@@ -15,27 +17,37 @@
     //% block="Bass Drum"
     //% jres=Block.Stone
     BassDrum,
+    //% block="Bell"
     //% jres=Block.GoldBlock
     Bell,
+    //% block="Flute"
     //% jres=Block.Clay
     Flute,
+    //% block="Guitar"
     //% jres=Block.Wool
     Guitar,
+    //% block="Xylophone"
     //% jres=Block.BoneBlock
     Xylophone,
+    //% block="Vibraphone"
     //% jres=Block.IronBlock
     Vibraphone,
     //% block="Cow Bell"
     //% jres=Block.SoulSand
     CowBell,
+    //% block="Didgeridoo"
     //% jres=Block.Pumpkin
     Didgeridoo,
+    //% block="Bit"
     //% jres=Block.EmeraldBlock
     Bit,
+    //% block="Banjo"
     //% jres=Block.HayBlock
     Banjo,
+    //% block="Pling"
     //% jres=Block.Glowstone
     Pling,
+    //% block="Harp"
     //% jres=Block.Scaffolding
     Harp,
 }
