@@ -28,6 +28,5 @@
     "testFiles": [
         "src/test.ts"
     ],
-    "preferredEditor": "tsprj",
-    "icon": "icon.png"
+    "preferredEditor": "tsprj"
 }
