@@ -2,7 +2,7 @@
     "name": "makecode-minecraft-music",
     "displayName": "Music",
     "description": "Play Minecraft music discs, make music with notes, and make sounds from mobs!",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "dependencies": {
         "core": "*",
         "builder": "*"
